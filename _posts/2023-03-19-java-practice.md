@@ -8,7 +8,7 @@ comments: true
 
 
 
-1. 자바의 기본 자료형
+1. **자바의 기본 자료형**
 
 쓸 수 있는 크기가 다르다
 
@@ -45,7 +45,7 @@ boolean형
 
 
 
-2. 자바의 출력문
+2. **자바의 출력문**
 
 이 자료형들을 사용하여 변수를 선언하고 값을 할당할 수 있다.
 
@@ -69,7 +69,7 @@ public class Main {
 
 
 
-3. 자바의 입력문
+3. **자바의 입력문**
 
 Java에서 `Scanner` 클래스를 사용하여 입력을 받을 수 있다.
 
@@ -104,7 +104,7 @@ public class Main {
 
 
 
-4. 자바의 조건문
+4. **자바의 조건문**
 
 Java에서 조건문을 사용하는 방법은 다음과 같다 :
 
@@ -136,7 +136,7 @@ public class Lecture03 {
 
 
 
-5. 자바의 반복문
+5. **자바의 반복문**
 
 Java에서는 다음과 같은 반복문을 사용할 수 있다 :
 
@@ -166,7 +166,7 @@ public class Lecture04 {
 
 
 
-6. 수도코드
+6. **수도코드**
 
 수도코드란, 알고리즘이나 프로그램의 논리 구조를 설명하기 위해 사용되는 비공식적인 프로그래밍 언어이다. 수도코드는 실제 프로그램을 작성하기 전에 알고리즘을 설계하여 정리할 수 있는 언어이다.
 
@@ -203,7 +203,7 @@ public class Lecture01 {
 
 
 
-7. 자바의 배열
+7. **자바의 배열**
 
 Java에서 배열을 사용하는 방법은 다음과 같다.
 
@@ -259,7 +259,7 @@ public class Main {
 
 
 
-8. 자바의 무작위 함수
+8. **자바의 무작위 함수**
 
 무작위 함수는 Random 함수를 사용하여 선언할 수 있다.
 
@@ -270,4 +270,35 @@ public class Random {
         System.out.println(randomNumber);
     }
 }
+```
+
+9. **자바의 메서드(함수)**
+
+메서드는 코드 블록을 실행하는 기능을 제공하는 코드 구성 요소이다. 자바에서 메서드를 선언하는 방법은 다음과 같다:
+
+```java
+접근제어자 static 리턴타입 메서드명(parameter type parameter1, parameter type parameter2 ...) {
+            // logic
+        }
+```
+
+예시(사칙연산) :
+
+```java
+public static int calculate(int num1, int num2, String operator) {
+        int result = 0;
+        if (Objects.equals(operator, "plus")) {
+            result = num1 + num2;
+        }
+        else if (Objects.equals(operator, "minus")) {
+            result = num1 - num2;
+        }
+        else if (Objects.equals(operator, "mult")) {
+            result = num1 * num2;
+        }
+        else if (Objects.equals(operator, "divis")) {
+            result = num1 / num2;
+        }
+        return result;
+    }
 ```
