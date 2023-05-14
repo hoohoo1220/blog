@@ -1,5 +1,5 @@
 ---
-title: java의 정석 1장, 변수
+title: java의 정석 2장, 연산자
 categories: [java]
 comments: true
 ---
