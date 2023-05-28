@@ -1,5 +1,5 @@
 # Site
-title:              Moon
+title:              박상후의 기술블로그
 bio:                'Minimal, one column jekyll theme.'
 description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
@@ -40,11 +40,11 @@ disqus_shortname:   taylantatli
 #email:
 twitter:            username
 facebook:           username
-github-url:         username
+github-url:         https://github.com/hoohoo1220
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          san9hu_7x7
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
