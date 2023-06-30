@@ -420,4 +420,4 @@ Car (String color, String gearType, int door) {
         모든 인스턴스메서드에 지역변수로 숨겨진 채 존재한다.
 
 *this(), this(매개변수)*  생성자, 같은 클래스의 다른 생성자를 호출할 때 사용한다.
-매개변수란
+매개변수란 그런 것이다.
