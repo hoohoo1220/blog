@@ -10,4 +10,3 @@ comments: false
 https://gpt-front-dn2.pages.dev
 
 chat-gpt
-google
