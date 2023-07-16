@@ -3,7 +3,7 @@ layout: post
 title:  "Chat-gpt 오늘의 운세"
 date:   2023-07-16
 excerpt: "오늘의 운세"
-project: true
+
 tag:
 - moon
 - blog
