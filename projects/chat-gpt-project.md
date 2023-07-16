@@ -1,7 +1,9 @@
 ---
-title: chat-gpt 운세보기
-categories: [chat-gpt]
-comments: true
+layout: page
+title: Chat-gpt 오늘의 운세
+
+date: 2023-07-16
+comments: false
 ---
 
 **chat-gpt가 알려주는 오늘의 운세**
